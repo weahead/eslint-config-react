@@ -1,13 +1,13 @@
 {
   "name": "@weahead/eslint-config-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "We aheads shareable eslint config for React projects.",
   "main": "index.js",
   "scripts": {
     "prettier": "prettier --write '**/*.js'"
   },
   "author": "We ahead <alla@weahead.se>",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "X11",
   "keywords": [
     "eslint",
     "eslintconfig"
