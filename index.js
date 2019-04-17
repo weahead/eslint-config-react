@@ -1,10 +1,12 @@
 module.exports = {
   parser: 'babel-eslint',
-  plugins: ['babel', 'react', 'jsx-a11y'],
+  plugins: ['babel', 'jsx-a11y', 'prettier', 'react'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:jsx-a11y/strict',
+    'prettier',
+    'prettier/react',
   ],
   rules: {
     semi: 'off',
@@ -39,6 +41,7 @@ module.exports = {
     'react/jsx-sort-default-props': 'error',
     'react/jsx-sort-props': 'error',
     'react/react-in-jsx-scope': 'off',
+    'prettier/prettier': 'error',
   },
   settings: {
     react: {
