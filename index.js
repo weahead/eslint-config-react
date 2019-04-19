@@ -1,4 +1,8 @@
 module.exports = {
+  env: {
+    browser: true,
+    node: true,
+  },
   parser: 'babel-eslint',
   plugins: ['babel', 'jsx-a11y', 'prettier', 'react'],
   extends: [
