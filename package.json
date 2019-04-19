@@ -37,7 +37,8 @@
     "prettier": "1.16.4"
   },
   "files": [
-    "index.js"
+    "index.js",
+    ".eslintrc.json"
   ],
   "repository": {
     "type": "git",
