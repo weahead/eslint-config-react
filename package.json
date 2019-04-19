@@ -38,7 +38,8 @@
   },
   "files": [
     "index.js",
-    ".eslintrc.json"
+    ".eslintrc.json",
+    ".prettierrc.js"
   ],
   "repository": {
     "type": "git",
