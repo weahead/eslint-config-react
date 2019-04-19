@@ -13,6 +13,7 @@
     "eslintconfig"
   ],
   "dependencies": {
+    "@weahead/prettier-config": "0.1.0",
     "eslint-config-prettier": "4.1.0"
   },
   "peerDependencies": {
