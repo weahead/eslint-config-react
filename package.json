@@ -4,7 +4,8 @@
   "description": "We aheads shareable eslint config for React projects.",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint --fix '**/*.js'"
+    "eslint": "eslint --fix '**/*.js'",
+    "postinstall": "npx install-peerdeps --only-peers --dev --extra-args '-E' @weahead/eslint-config-react"
   },
   "author": "We ahead <alla@weahead.se>",
   "license": "X11",
@@ -12,10 +13,7 @@
     "eslint",
     "eslintconfig"
   ],
-  "dependencies": {
-    "@weahead/prettier-config": "0.1.0",
-    "eslint-config-prettier": "4.1.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "eslint": "5.16.0",
     "eslint-config-prettier": "4.1.0",
@@ -25,8 +23,10 @@
     "eslint-plugin-react": "7.12.4"
   },
   "devDependencies": {
+    "@weahead/prettier-config": "0.1.0",
     "babel-eslint": "10.0.1",
     "eslint": "5.16.0",
+    "eslint-config-prettier": "4.1.0",
     "eslint-plugin-babel": "5.3.0",
     "eslint-plugin-jsx-a11y": "6.2.1",
     "eslint-plugin-prettier": "3.0.1",
