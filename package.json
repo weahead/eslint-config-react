@@ -1,11 +1,10 @@
 {
   "name": "@weahead/eslint-config-react",
-  "version": "0.6.0-beta.1",
+  "version": "0.6.0",
   "description": "We aheads shareable eslint config for React projects.",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint --fix '**/*.js'",
-    "postinstall": "npx install-peerdeps --only-peers --dev --extra-args '-E' @weahead/eslint-config-react"
+    "eslint": "eslint --fix '**/*.js'"
   },
   "author": "We ahead <alla@weahead.se>",
   "license": "X11",
@@ -15,12 +14,12 @@
   ],
   "dependencies": {},
   "peerDependencies": {
-    "eslint": "5.16.0",
-    "eslint-config-prettier": "4.1.0",
-    "eslint-plugin-babel": "5.3.0",
-    "eslint-plugin-jsx-a11y": "6.2.1",
-    "eslint-plugin-prettier": "3.0.1",
-    "eslint-plugin-react": "7.12.4"
+    "eslint": ">=5",
+    "eslint-config-prettier": ">=4",
+    "eslint-plugin-babel": ">=5",
+    "eslint-plugin-jsx-a11y": ">=6",
+    "eslint-plugin-prettier": ">=3",
+    "eslint-plugin-react": ">=7"
   },
   "devDependencies": {
     "@weahead/prettier-config": "0.1.0",
@@ -31,10 +30,10 @@
     "eslint-plugin-jsx-a11y": "6.2.1",
     "eslint-plugin-prettier": "3.0.1",
     "eslint-plugin-react": "7.12.4",
-    "husky": "1.3.1",
-    "lint-staged": "8.1.5",
-    "package-change-checker": "1.2.3",
-    "prettier": "1.16.4"
+    "husky": "2.2.0",
+    "lint-staged": "8.1.6",
+    "package-change-checker": "1.2.4",
+    "prettier": "1.17.0"
   },
   "files": [
     "index.js",
