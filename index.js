@@ -38,7 +38,7 @@ module.exports = {
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
     'react/jsx-handler-names': 'error',
     'react/jsx-no-bind': 'error',
-    'react/jsx-one-expression-per-line': ['warn', { allow: 'single-child' }],
+    'react/jsx-one-expression-per-line': 'off',
     'react/jsx-fragments': 'error',
     'react/jsx-pascal-case': 'error',
     'react/jsx-props-no-multi-spaces': 'error',
