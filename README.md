@@ -5,7 +5,7 @@
 
 ## Install
 
-`npm install -DE @weahead/eslint-config-react`
+`npx install-peerdeps -d -x '-E' @weahead/eslint-config-react`
 
 
 ### Usage
