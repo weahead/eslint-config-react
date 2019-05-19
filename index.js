@@ -4,7 +4,7 @@ module.exports = {
     node: true,
   },
   parser: 'babel-eslint',
-  plugins: ['babel', 'jsx-a11y', 'prettier', 'react'],
+  plugins: ['babel', 'jsx-a11y', 'prettier', 'react', 'react-hooks'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
@@ -46,6 +46,8 @@ module.exports = {
     'react/jsx-sort-props': 'error',
     'react/react-in-jsx-scope': 'off',
     'prettier/prettier': 'error',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
   settings: {
     react: {
