@@ -4,7 +4,7 @@ module.exports = {
     node: true,
   },
   parser: 'babel-eslint',
-  plugins: ['babel', 'jsx-a11y', 'prettier', 'react'],
+  plugins: ['babel', 'jsx-a11y', 'prettier', 'react', 'react-hooks'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
@@ -38,7 +38,7 @@ module.exports = {
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
     'react/jsx-handler-names': 'error',
     'react/jsx-no-bind': 'error',
-    'react/jsx-one-expression-per-line': ['warn', { allow: 'single-child' }],
+    'react/jsx-one-expression-per-line': 'off',
     'react/jsx-fragments': 'error',
     'react/jsx-pascal-case': 'error',
     'react/jsx-props-no-multi-spaces': 'error',
@@ -46,6 +46,8 @@ module.exports = {
     'react/jsx-sort-props': 'error',
     'react/react-in-jsx-scope': 'off',
     'prettier/prettier': 'error',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
   settings: {
     react: {
