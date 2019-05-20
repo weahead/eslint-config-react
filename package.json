@@ -14,7 +14,7 @@
   ],
   "dependencies": {},
   "peerDependencies": {
-    "babel-eslint": ">=10",
+    "babel-eslint": ">=9",
     "eslint": ">=5",
     "eslint-config-prettier": ">=4",
     "eslint-plugin-babel": ">=5",
