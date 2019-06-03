@@ -49,6 +49,13 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'jsx-a11y/label-has-for': 'off',
+    'jsx-a11y/label-has-associated-control': [
+      'error',
+      {
+        controlComponents: ['Select', 'Input', 'TextArea', 'Textarea'],
+        depth: 3,
+      },
+    ],
   },
   settings: {
     react: {
