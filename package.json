@@ -4,7 +4,8 @@
   "description": "We aheads shareable eslint config for React projects.",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint --fix '**/*.js'"
+    "eslint": "eslint --fix '**/*.js'",
+    "lint-staged": "npm run eslint"
   },
   "author": "We ahead <alla@weahead.se>",
   "license": "X11",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "@weahead/husky-config": "0.3.1",
+    "@weahead/lint-staged-config": "0.2.1",
     "@weahead/prettier-config": "0.1.3",
     "babel-eslint": "10.0.1",
     "eslint": "5.16.0",
