@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     node: true,
+    es6: true,
   },
   parser: 'babel-eslint',
   plugins: ['babel', 'jsx-a11y', 'prettier', 'react', 'react-hooks'],
