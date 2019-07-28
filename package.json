@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "commit",
-    "lint": "eslint --fix '*.js' '*.json'",
-    "lint-staged": "npm run eslint"
+    "lint": "eslint --fix '*.js' '*.json'"
   },
   "author": "We ahead <alla@weahead.se>",
   "license": "X11",
