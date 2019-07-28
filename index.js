@@ -5,7 +5,7 @@ module.exports = {
     es6: true,
   },
   parser: 'babel-eslint',
-  plugins: ['babel', 'jsx-a11y', 'prettier', 'react', 'react-hooks'],
+  plugins: ['babel', 'json', 'jsx-a11y', 'prettier', 'react', 'react-hooks'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
