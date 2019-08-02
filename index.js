@@ -78,4 +78,14 @@ module.exports = {
     },
     linkComponents: [{ name: 'Link', linkAttribute: 'to' }],
   },
+  overrides: [
+    {
+      files: 'api/**/*.js',
+      env: { node: true },
+      rules: {
+        'simple-import-sort/sort': 'off',
+        'import/order': ['error', { 'newlines-between': 'always' }],
+      },
+    },
+  ],
 };
