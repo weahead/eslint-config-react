@@ -2,21 +2,17 @@
 
 [We aheads](https://www.weahead.se/) eslint config for React projects.
 
-
 ## Install
 
 `npx install-peerdeps -d -x '-E' @weahead/eslint-config-react`
 
+A `.eslintrc.json` file will automatically be created in the root of your project with:
 
-### Usage
-
-Create a file named `.eslintrc.json` and fill it with:
 ```json
 {
   "extends": ["@weahead/eslint-config-react"]
 }
 ```
-
 
 ## License
 

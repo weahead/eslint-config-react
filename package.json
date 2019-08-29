@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "commit": "commit",
-    "lint": "eslint --fix '*.js' '*.json'"
+    "lint": "eslint --fix '*.js' '*.json'",
+    "postinstall": "./scripts/postinstall.sh"
   },
   "author": "We ahead <alla@weahead.se>",
   "license": "X11",
@@ -50,7 +51,8 @@
     "prettier": "1.18.2"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "scripts/*"
   ],
   "repository": {
     "type": "git",
