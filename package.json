@@ -1,11 +1,12 @@
 {
   "name": "@weahead/eslint-config-react",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "We aheads shareable eslint config for React projects.",
   "main": "index.js",
   "scripts": {
     "commit": "commit",
-    "lint": "eslint --fix '*.js' '*.json'"
+    "lint": "eslint --fix '*.js' '*.json'",
+    "postinstall": "./scripts/postinstall.sh"
   },
   "author": "We ahead <alla@weahead.se>",
   "license": "X11",
@@ -37,18 +38,21 @@
     "eslint": "6.1.0",
     "eslint-config-prettier": "6.0.0",
     "eslint-plugin-babel": "5.3.0",
+    "eslint-plugin-import": "2.18.2",
     "eslint-plugin-json": "1.4.0",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-prettier": "3.1.0",
     "eslint-plugin-react": "7.14.2",
     "eslint-plugin-react-hooks": "1.6.1",
+    "eslint-plugin-simple-import-sort": "4.0.0",
     "husky": "3.0.1",
     "lint-staged": "9.2.1",
     "package-change-checker": "1.2.4",
     "prettier": "1.18.2"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "scripts/*"
   ],
   "repository": {
     "type": "git",

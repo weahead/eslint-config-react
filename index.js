@@ -5,7 +5,16 @@ module.exports = {
     es6: true,
   },
   parser: 'babel-eslint',
-  plugins: ['babel', 'json', 'jsx-a11y', 'prettier', 'react', 'react-hooks'],
+  plugins: [
+    'babel',
+    'json',
+    'jsx-a11y',
+    'prettier',
+    'react',
+    'react-hooks',
+    'eslint-plugin-import',
+    'eslint-plugin-simple-import-sort',
+  ],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
@@ -57,6 +66,11 @@ module.exports = {
         depth: 3,
       },
     ],
+    'simple-import-sort/sort': 'error',
+    'sort-imports': 'off',
+    'import/first': 'error',
+    'import/newline-after-import': 'error',
+    'import/no-duplicates': 'error',
   },
   settings: {
     react: {
@@ -64,4 +78,14 @@ module.exports = {
     },
     linkComponents: [{ name: 'Link', linkAttribute: 'to' }],
   },
+  overrides: [
+    {
+      files: 'api/**/*.js',
+      env: { node: true },
+      rules: {
+        'simple-import-sort/sort': 'off',
+        'import/order': ['error', { 'newlines-between': 'always' }],
+      },
+    },
+  ],
 };
