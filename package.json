@@ -1,6 +1,6 @@
 {
   "name": "@weahead/eslint-config-react",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "We aheads shareable eslint config for React projects.",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,9 @@
     "eslint-plugin-jsx-a11y": ">=6",
     "eslint-plugin-prettier": ">=3",
     "eslint-plugin-react": ">=7",
-    "eslint-plugin-react-hooks": ">=1"
+    "eslint-plugin-react-hooks": ">=1",
+    "eslint-plugin-import": ">=2",
+    "eslint-plugin-simple-import-sort": ">=4"
   },
   "devDependencies": {
     "@commitlint/cli": "8.1.0",
