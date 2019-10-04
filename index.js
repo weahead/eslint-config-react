@@ -49,7 +49,7 @@ module.exports = {
     'react/jsx-handler-names': 'error',
     'react/jsx-no-bind': 'error',
     'react/jsx-one-expression-per-line': 'off',
-    'react/jsx-fragments': 'error',
+    'react/jsx-fragments': 'off',
     'react/jsx-pascal-case': 'error',
     'react/jsx-props-no-multi-spaces': 'error',
     'react/jsx-sort-default-props': 'error',
