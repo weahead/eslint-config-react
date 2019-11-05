@@ -9,7 +9,6 @@ module.exports = {
     'babel',
     'json',
     'jsx-a11y',
-    'prettier',
     'react',
     'react-hooks',
     'eslint-plugin-import',
@@ -19,8 +18,6 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:jsx-a11y/strict',
-    'prettier',
-    'prettier/react',
   ],
   rules: {
     semi: 'off',
@@ -64,7 +61,6 @@ module.exports = {
     'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
-    'prettier/prettier': 'error',
   },
   settings: {
     react: {
