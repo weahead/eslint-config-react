@@ -7,7 +7,6 @@ module.exports = {
   parser: 'babel-eslint',
   plugins: [
     'babel',
-    'json',
     'jsx-a11y',
     'react',
     'react-hooks',
