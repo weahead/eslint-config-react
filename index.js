@@ -36,7 +36,7 @@ module.exports = {
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error',
     'react/jsx-boolean-value': 'error',
-    'react/jsx-filename-extension': ['warn', { extensions: ['.js'] }],
+    'react/jsx-filename-extension': [ 'warn', { extensions: [ '.js', '.jsx', '.ts', '.tsx' ] } ],
     'react/jsx-handler-names': 'error',
     'react/jsx-no-bind': 'error',
     'react/jsx-one-expression-per-line': 'off',
