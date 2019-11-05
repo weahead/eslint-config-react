@@ -20,7 +20,7 @@ module.exports = {
   ],
   rules: {
     semi: 'off',
-    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'no-console': [ 'error', { allow: [ 'warn', 'error' ] } ],
     'react/boolean-prop-naming': 'error',
     'react/no-array-index-key': 'error',
     'react/no-set-state': 'error',
@@ -51,7 +51,7 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': [
       'error',
       {
-        controlComponents: ['Select', 'Input', 'TextArea', 'Textarea'],
+        controlComponents: [ 'Select', 'Input', 'TextArea', 'Textarea' ],
         depth: 3,
       },
     ],
@@ -65,7 +65,7 @@ module.exports = {
     react: {
       version: 'detect',
     },
-    linkComponents: [{ name: 'Link', linkAttribute: 'to' }],
+    linkComponents: [ { name: 'Link', linkAttribute: 'to' } ],
   },
   overrides: [
     {
@@ -73,7 +73,7 @@ module.exports = {
       env: { node: true },
       rules: {
         'simple-import-sort/sort': 'off',
-        'import/order': ['error', { 'newlines-between': 'always' }],
+        'import/order': [ 'error', { 'newlines-between': 'always' } ],
       },
     },
   ],
