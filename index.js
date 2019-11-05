@@ -38,7 +38,7 @@ module.exports = {
     'react/jsx-boolean-value': 'error',
     'react/jsx-filename-extension': [ 'warn', { extensions: [ '.js', '.jsx', '.ts', '.tsx' ] } ],
     'react/jsx-handler-names': 'error',
-    'react/jsx-no-bind': 'error',
+    'react/jsx-no-bind': [ 'error', { allowArrowFunctions: true, allowFunctions: true } ],
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-fragments': 'off',
     'react/jsx-pascal-case': 'error',
