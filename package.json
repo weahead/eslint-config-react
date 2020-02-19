@@ -7,7 +7,7 @@
     "commit": "commit",
     "eslint": "eslint --fix '*.js'",
     "prettier": "prettier --write '*.js' '*.json'",
-    "postinstall": "./scripts/postinstall.sh"
+    "postinstall": "node scripts/postinstall.js"
   },
   "author": "We ahead <alla@weahead.se>",
   "license": "X11",
